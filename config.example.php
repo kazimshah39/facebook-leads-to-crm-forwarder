@@ -5,6 +5,7 @@ return [
   'APP_ID'          => 'YOUR_APP_ID_HERE', // Add your Facebook App ID
   'APP_SECRET'      => '', // Add your Facebook App Secret
   'ACCESS_TOKEN'    => '', // Add your Facebook Page Access Token
+  'TOKEN_REFRESH_THRESHOLD_DAYS' => 7,
   'FORWARD_URL'     => 'https://webhook.site/49328948329',
   'SENTRY_DSN'      => '', // Add your Sentry DSN
   'ENABLE_LOGS'     => false,
