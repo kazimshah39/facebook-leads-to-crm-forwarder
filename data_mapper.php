@@ -38,5 +38,7 @@ function mapLeadData($lead_data)
     }
   }
 
+  $mapped_data['source'] = 'Webhook';
+
   return $mapped_data;
 }
