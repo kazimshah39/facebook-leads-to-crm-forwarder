@@ -32,6 +32,24 @@ function mapLeadData($lead_data)
         case 'which_course_are_you_interested_in?':
           $mapped_data['course'] = $value;
           break;
+
+        // UTM parameters
+        case 'utm_source':
+          $mapped_data['utm_source'] = $value;
+          break;
+        case 'utm_medium':
+          $mapped_data['utm_medium'] = $value;
+          break;
+        case 'utm_campaign':
+          $mapped_data['utm_campaign'] = $value;
+          break;
+        case 'utm_term':
+          $mapped_data['utm_term'] = $value;
+          break;
+        case 'utm_content':
+          $mapped_data['utm_content'] = $value;
+          break;
+
         default:
           $mapped_data[$key] = $value;
       }
